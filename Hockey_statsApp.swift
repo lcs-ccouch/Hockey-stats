@@ -11,7 +11,7 @@ import SwiftUI
 struct Hockey_statsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SearchView()
         }
     }
 }

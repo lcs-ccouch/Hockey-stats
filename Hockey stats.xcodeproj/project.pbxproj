@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		2137D7392A27A777009B51C9 /* Hockey_statsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2137D7382A27A777009B51C9 /* Hockey_statsApp.swift */; };
-		2137D73B2A27A777009B51C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2137D73A2A27A777009B51C9 /* ContentView.swift */; };
 		2137D73D2A27A778009B51C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2137D73C2A27A778009B51C9 /* Assets.xcassets */; };
 		2137D7402A27A778009B51C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2137D73F2A27A778009B51C9 /* Preview Assets.xcassets */; };
+		2137D7472A27A7E2009B51C9 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2137D7462A27A7E2009B51C9 /* SearchView.swift */; };
+		2137D7492A27A8AB009B51C9 /* FavouritePlayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2137D7482A27A8AB009B51C9 /* FavouritePlayers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2137D7352A27A777009B51C9 /* Hockey stats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hockey stats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2137D7382A27A777009B51C9 /* Hockey_statsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hockey_statsApp.swift; sourceTree = "<group>"; };
-		2137D73A2A27A777009B51C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2137D73C2A27A778009B51C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2137D73F2A27A778009B51C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2137D7462A27A7E2009B51C9 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		2137D7482A27A8AB009B51C9 /* FavouritePlayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritePlayers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 		2137D72C2A27A777009B51C9 = {
 			isa = PBXGroup;
 			children = (
+				2137D7382A27A777009B51C9 /* Hockey_statsApp.swift */,
 				2137D7372A27A777009B51C9 /* Hockey stats */,
 				2137D7362A27A777009B51C9 /* Products */,
 			);
@@ -51,10 +54,10 @@
 		2137D7372A27A777009B51C9 /* Hockey stats */ = {
 			isa = PBXGroup;
 			children = (
-				2137D7382A27A777009B51C9 /* Hockey_statsApp.swift */,
-				2137D73A2A27A777009B51C9 /* ContentView.swift */,
+				2137D7462A27A7E2009B51C9 /* SearchView.swift */,
 				2137D73C2A27A778009B51C9 /* Assets.xcassets */,
 				2137D73E2A27A778009B51C9 /* Preview Content */,
+				2137D7482A27A8AB009B51C9 /* FavouritePlayers.swift */,
 			);
 			path = "Hockey stats";
 			sourceTree = "<group>";
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2137D73B2A27A777009B51C9 /* ContentView.swift in Sources */,
+				2137D7472A27A7E2009B51C9 /* SearchView.swift in Sources */,
+				2137D7492A27A8AB009B51C9 /* FavouritePlayers.swift in Sources */,
 				2137D7392A27A777009B51C9 /* Hockey_statsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
